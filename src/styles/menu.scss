@@ -1,0 +1,32 @@
+ul {
+    list-style   : none;
+    padding      : 15px;
+    background   : #612f75;
+    text-align   : center;
+    border-radius: 0 0 10px 10px;
+
+    li {
+        display     : inline-flex;
+        margin-right: 20px;
+
+        a {
+            text-decoration: none;
+            font-weight    : 500;
+            color          : white;
+
+            &:hover {
+                color     : #A600A6;
+                transition: 0.5s;
+            }
+        }
+    }
+}
+
+$breakpoint: 830px;
+
+@media (max-width: #{$breakpoint}) {
+
+    ul {
+        display: none;
+    }
+}

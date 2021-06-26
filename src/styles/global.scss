@@ -1,0 +1,33 @@
+* {
+    margin     : 0;
+    padding    : 0;
+    box-sizing : border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: rgb(37, 37, 37);
+    color     : #ffffff;
+}
+
+#container {
+    max-width: 800px;
+    margin   : auto;
+}
+
+img {
+    border: 3px #A600A6	 solid;
+    border-radius: 10px;  
+}
+strong, em {
+    color: #A600A6;
+}
+
+$breakpoint: 830px;
+
+@media (max-width: #{$breakpoint}) {
+
+    #container {
+        width: 80%;
+    }
+}

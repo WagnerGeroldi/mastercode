@@ -1,0 +1,21 @@
+footer {
+    background     : linear-gradient(to right, #00AFEF, #A600A6);
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    height         : 10vh;
+    margin-top     : 15px;
+    text-align     : center;
+
+    p {
+        text-align: center;
+
+        a {
+            margin-left    : 5px;
+            text-decoration: none;
+            cursor         : pointer;
+            color          : white;
+            font-weight    : 500;
+        }
+    }
+}
