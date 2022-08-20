@@ -4,6 +4,7 @@ Este site foi desenvolvido para praticar algumas ferramentas e casos de uso de t
 
 Ele foi totalmente estruturado em componentes React, criando rotas de navegação!
 
+* INFORMAÇÃO IMPORTANTE : ESTE PROJETO NÃO ESTÁ CONCLUÍDO, TIVE QUE "ABANDONAR" MOMENTANEAMENTE, PARA DEDICAR A OUTRO PROJETO!
 
 
 ### Tecnologias Utilizadas para desenvolver o site
